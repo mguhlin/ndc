@@ -22,7 +22,7 @@
             padding: 20px;
             background-color: var(--bg);
         }
-        
+
         /* Global Navigation Styling */
         .global-nav {
             text-align: center;
@@ -69,7 +69,7 @@
             margin-bottom: 30px;
         }
         h2, h3 { color: var(--navy); border-bottom: 1px solid #eee; padding-bottom: 10px; }
-        
+
         /* ARC Navigation */
         .arc-nav {
             display: grid;
@@ -118,7 +118,7 @@
             border-left: 8px solid #2e7d32;
             padding: 20px;
             margin-top: 20px;
-            display: none; 
+            display: none;
         }
 
         /* Strategy Table */
@@ -127,10 +127,10 @@
         td { padding: 12px; border-bottom: 1px solid #ddd; }
         tr:nth-child(even) { background: #f9f9f9; }
 
-        footer { 
-            text-align: center; 
-            padding: 40px; 
-            background-color: var(--navy); 
+        footer {
+            text-align: center;
+            padding: 40px;
+            background-color: var(--navy);
             color: var(--white);
             margin-top: 50px;
         }
@@ -142,7 +142,12 @@
         footer .global-nav a {
             color: var(--gold);
         }
-    </style>
+
+        :focus-visible { outline: 3px solid #a75d00; outline-offset: 4px; }
+        .global-nav { padding: 16px; font-weight: 600; }
+        .section-box { padding: 32px; margin-bottom: 32px; }
+        @media (max-width: 600px) { header h1 { font-size: 2rem; } .section-box { padding: 20px; } .arc-nav { gap: 8px; } }
+</style>
 </head>
 <body>
 
